@@ -11,8 +11,12 @@ public class MoveState : PlayerState {
 
 	[SerializeField] private float speedRatio;
 
+	[SerializeField] private StaminaAccumulator staminaAccumulator;
+
+
 	private void OnEnable()	{
 		playerInput.DirectionChange += OnDirectionChanges;
+		staminaAccumulator.StartAccumulat();
 	}
 
 	private void OnDisable(){

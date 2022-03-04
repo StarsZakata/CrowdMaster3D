@@ -64,12 +64,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Player\Abbility\Abillity.cs" />
+    <Compile Include="Assets\Player\Abbility\HandAbility.cs" />
+    <Compile Include="Assets\Player\Enemy\EnemyState.cs" />
+    <Compile Include="Assets\Player\Enemy\EnemyStateMashine.cs" />
+    <Compile Include="Assets\Player\Enemy\HealthContainer.cs" />
+    <Compile Include="Assets\Player\Enemy\State\Box.cs" />
+    <Compile Include="Assets\Player\Enemy\State\BrokenState.cs" />
+    <Compile Include="Assets\Player\Enemy\State\ChaseState.cs" />
+    <Compile Include="Assets\Player\Enemy\State\HandAttackState.cs" />
+    <Compile Include="Assets\Player\Enemy\State\WaintingState.cs" />
+    <Compile Include="Assets\Player\Enemy\Transition\ApprochedPlayerTransition.cs" />
+    <Compile Include="Assets\Player\Enemy\Transition\EnemyTransition.cs" />
+    <Compile Include="Assets\Player\Enemy\Transition\FoundPlayerTransition.cs" />
+    <Compile Include="Assets\Player\Enemy\Transition\LostPlayerTransition.cs" />
+    <Compile Include="Assets\Player\IDamageable.cs" />
     <Compile Include="Assets\Player\PlayerInput.cs" />
     <Compile Include="Assets\Player\PlayerStateMachine.cs" />
+    <Compile Include="Assets\Player\StaminaAccumulator.cs" />
+    <Compile Include="Assets\Player\State\AttackState.cs" />
     <Compile Include="Assets\Player\State\IdleState.cs" />
     <Compile Include="Assets\Player\State\MoveState.cs" />
     <Compile Include="Assets\Player\State\PlayerState.cs" />
+    <Compile Include="Assets\Player\Transition\AttackTransition.cs" />
+    <Compile Include="Assets\Player\Transition\EndAttackTransition.cs" />
+    <Compile Include="Assets\Player\Transition\MoveTransition.cs" />
     <Compile Include="Assets\Player\Transition\PlayerTransition.cs" />
+    <Compile Include="Assets\Scipts\CameraFolowing.cs" />
+    <Compile Include="Assets\Scipts\CameraSheker.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
